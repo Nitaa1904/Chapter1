@@ -1,0 +1,43 @@
+.nav-link {
+    color: black;
+}
+.nav-link:hover{
+    color: aquamarine;
+}
+.gradient-background {
+    background: linear-gradient(
+        135deg,
+        #5335cf 0%,
+        #de005e 25%,
+        #f66e48 50%,
+        #de005e 75%,
+        #5335cf 100%
+    );
+    background-size: 100%;
+    animation: animate 10s linear infinite;
+}
+
+.tittle-testimonial {
+    padding-bottom: 16px;
+}
+
+.carousel-item {
+    padding: 0px 50px;
+}
+.btn-custom {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black; /* Warna background */
+    color: white; 
+}
+
+.btn-custom:hover {
+    background-color: white; /* Warna background */
+    color: black; 
+    border: 1px solid black;
+}
+
+/* tanda > pada silder ambil di figma */
+.carousel-control-prev-icon {
+    background-image: url();
+}
